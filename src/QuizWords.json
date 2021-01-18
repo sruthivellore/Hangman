@@ -1,0 +1,192 @@
+{
+    "technology":[
+            {
+                "word":"Artificial Intelligence",
+                "description":"Refers to the simulation of human intelligence in machines that are programmed to think like humans and mimic their actions."
+            },
+            {
+                "word":"Machine Learning",
+                "description":"Study of computer algorithms that improve automatically through experience. It is seen as a subset of artificial intelligence."
+            },
+            {
+                "word":"Edge Computing",
+                "description":"A distributed computing paradigm that brings computation and data storage closer to the location where it is needed, to improve response times and save bandwidth."
+            },
+            {
+                "word":"Virtual Reality",
+                "description":"Refers to a computer-generated simulation in which a person can interact within an artificial three-dimensional environment using electronic devices, such as special goggles with a screen or gloves fitted with sensors."
+            },
+            {
+                "word":"Blockchain",
+                "description":"A Bitcoin block explorer service, as well as a cryptocurrency wallet and a cryptocurrency exchange supporting Bitcoin, Bitcoin Cash, and Ethereum."
+            },
+            {
+                "word":"Big Data",
+                "description":"A field that treats ways to analyze, systematically extract information from, or otherwise deal with data sets that are too large or complex to be dealt with by traditional data-processing application software."
+            },
+            {
+                "word":"Angular",
+                "description":"An application design framework and development platform for creating efficient and sophisticated single-page apps."
+            },
+            {
+                "word":"Cloud Computing",
+                "description":"An on-demand availability of computer system resources, especially data storage and computing power, without direct active management by the user. "
+            },
+            {
+                "word":"React",
+                "description":"An open-source, front end, JavaScript library for building user interfaces or UI components. It is maintained by Facebook and a community of individual developers and companies."
+            },
+            {
+                "word":"Python",
+                "description":"It is one of the most preferred language in the fields of Data Science, Statistics, Analytics, ML and AI with R as its only real competition."
+            },
+            {
+                "word":"JavaScript",
+                "description":"A programming language that built the Internet."
+            },
+            {
+                "word":"Ruby",
+                "description":"Is a dynamic language which was constructed with an aim to simplify the programming task and making it more fun."
+            },
+            {
+                "word":"Swift",
+                "description":"A relatively new programming language used to develop iOS and macOS applications."
+            },
+            {
+                "word":"Scala",
+                "description":"A classic programming language that combines the best features of Java (such as its Object-Oriented Structure and its lightning-fast JVM runtime environment) with a modern twist."
+            },
+            {
+                "word":"Java",
+                "description":"One of the most popular programming languages in use, so it’s no surprise it came in as the No. 1 skill tech companies were looking for."
+            },
+            {
+                "word":"HTML",
+                "description":"Standard markup language for documents designed to be displayed in a web browser. "
+            },
+            {
+                "word":"COBOL",
+                "description":"One of the oldest high-level programming languages. And many people think it is dead. But it is still in use throughout business and government doing mission-critical tasks."
+            },
+            {
+                "word":"FORTRAN",
+                "description":"A general-purpose, compiled imperative programming language that is especially suited to numeric computation and scientific computing."
+            },
+            {
+                "word":"Haskell",
+                "description":"A general-purpose, statically typed, purely functional programming language with type inference and lazy evaluation."
+            },
+            {
+                "word":"jQuery",
+                "description":"A JavaScript library designed to simplify HTML DOM tree traversal and manipulation, as well as event handling, CSS animation, and Ajax."
+            },
+            {
+                "word":"Perl",
+                "description":"A very useful tool for almost any programmer. As an interpreted language it does not need to compile, and is sometimes referred to as the 'swiss army knife' of scripting languages."
+            },
+            {
+                "word":"PostgreSQL",
+                "description":"An advanced relational database system - the biggest open-source competitor to MySQL."
+            },
+            {
+                "word":"JSON",
+                "description":"An open standard file format, and data interchange format, that uses human-readable text to store and transmit data objects consisting of attribute–value pairs and array data types. "
+            },
+            {
+                "word":"Bootstrap",
+                "description":"A free and open-source CSS framework directed at responsive, mobile-first front-end web development. "
+            },{
+                "word":"Django",
+                "description":"A Python-based free and open-source web framework that follows the model-template-views architectural pattern."
+            },{
+                "word":"MongoDB",
+                "description":"A cross-platform document-oriented database program. Classified as a NoSQL database program."
+            },{
+                "word":"Flask",
+                "description":"A micro web framework written in Python. It is classified as a microframework because it does not require particular tools or libraries."
+            }
+
+    ],
+    
+    "social":[
+        {
+            "word":"Facebook",
+            "description":"The biggest social media site around, with more than two billion people using it every month. That’s almost a third of the world’s population!"
+        },{
+            "word":"YouTube",
+            "description":"A video-sharing platform where users watch a billion hour of videos every day."
+        },{
+            "word":"WhatsApp",
+            "description":"A messaging app used by people in over 180 countries."
+        },{
+            "word":"Messenger",
+            "description":"Used to be a messaging feature within Facebook"
+        },{
+            "word":"WeChat",
+            "description":"Grew from a messaging app, just like WhatsApp and Messenger, into an all-in-one platform."
+        },{
+            "word":"Instagram",
+            "description":"A photo and video sharing social media app. It allows you to share a wide range of content such as photos, videos, Stories, and live videos."
+        },{
+            "word":"Tumblr",
+            "description":"A microblogging and social networking site for sharing text, photos, links, videos, audios, and more."
+        },{
+            "word":"Qzone",
+            "description":"Popular social networking platform based in China, where users can upload multimedia, write blogs, play games, and decorate their own virtual spaces."
+        },{
+            "word":"Tik Tok",
+            "description":"A rising music video social network. It was the world’s most downloaded app in the first quarter of 2018, beating Facebook, Instagram, and other social media apps."
+        },{
+            "word":"Twitter",
+            "description":"A social media site for news, entertainment, sports, politics, and more."
+        },{
+            "word":"Reddit",
+            "description":"Also known as the front page of the Internet, is a platform where users can submit questions, links, and images, discuss them, and vote them up or down."
+        },{
+            "word":"LinkedIn",
+            "description":"More than just a resume and job search site. It has evolved into a professional social media site where industry experts share content, network with one another, and build their personal brand."
+        },{
+            "word":"Viber",
+            "description":"Quite similar to major social messaging apps such as WhatsApp and Messenger. It allows users to send messages and multimedia, call, share stickers and GIFs, and more."
+        },{
+            "word":"Snapchat",
+            "description":"A social media app that focuses on sharing photos and short videos (as known as snaps) between friends. It made the Stories format popular, which eventually proliferated on other social media platforms"
+        },{
+            "word":"Pinterest",
+            "description":"A place where people go to discover new things and be inspired, quite unlike most social media sites where engagement is the primary focus."
+        },{
+            "word":"Line",
+            "description":"A multi-purpose social messaging app that allows users to message, share stickers, play games, make payments, request for taxis, and shop online."
+        },{
+            "word":"Telegram",
+            "description":"Similar to most social messaging apps and is often known for how secure it is as a messaging app."
+        },{
+            "word":"Medium",
+            "description":"An online publishing platform with a social network element."
+        },{
+            "word":" Nextdoor",
+            "description":"A private social network for dedicated neighbourhoods."
+        },{
+            "word":" Quora",
+            "description":"One of the largest social networks for people to ask and answer questions about hundreds of topics and categories."
+        },{
+            "word":" Nextdoor",
+            "description":"A private social network for dedicated neighbourhoods."
+        },{
+            "word":" Wattpad",
+            "description":"A social media community of readers and writers. The platform sees a ton of user-generated stories across various genres including fiction, poetry, humour, and even fanfiction."
+        },{
+            "word":"Flickr",
+            "description":"A photo-sharing social media site that’s a favourite among photographers and graphic designers."
+        },{
+            "word":"GIPHY",
+            "description":"An online database of animated GIFs that are usually humour-based. Users can upload their own GIFs or search for and discover GIFs created by other users."
+        },{
+            "word":"Skype",
+            "description":"It is a communication-based social networking platform that is most popular for making video conference calls."
+        },{
+            "word":"Discord",
+            "description":"The preferred instant messaging platform for gamers. A lot of gamers use it to create team channels and discuss game strategy. You can use it directly from your browser or download the app."
+        }
+    ]
+}

@@ -1,0 +1,232 @@
+/* * {
+  box-sizing: border-box;
+} */
+
+body, #root {
+  background-color:whitesmoke;
+  color: #34495e;
+  font-family: Arial, Helvetica, sans-serif;
+  min-height: 700px;
+}
+.setAllCards{
+  display: flex;
+}
+.alphabetList{
+  width:20% !important;
+  float:bottom !important;
+  position:absolute !important;
+  top: 2.8rem !important;
+  right: 3.3rem !important;
+}
+.setScoreFont{
+  font-size: x-large;
+}
+.p-m-0{
+  padding-left: 2rem !important;
+  padding-top: 2.5rem !important;
+}
+.alphButDisable{
+  margin-right: 1em !important;
+  margin-bottom: 0.7em !important;
+  background-color:rgb(245, 216, 50) !important;
+  width: 1.5rem !important;
+  height: 1.5rem !important;
+}
+.alphButEnable{
+  margin-right: 1em !important;
+  margin-bottom: 0.7em !important;
+  background-color:#17a2b8 !important;
+  border-color: #17a2b8 !important;
+  width: 1.5rem !important;
+  height: 1.5rem !important;
+}
+.NavBar{
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+}
+.alphaCard{
+  padding-top: 0.4px !important;
+  padding-bottom: 0px !important;
+  text-align: center;
+}
+.alphaCard1{
+  padding-top: 1rem !important;
+  padding-bottom: 0px !important;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+  text-align: center;
+}
+
+
+.rulesCard{
+  width:1200px;
+  margin-top: 0.2rem;
+  margin-bottom: 2rem;
+  text-align: left;
+  font-size: small;
+  
+}
+.gameCard{
+  width:700px;
+  margin-top: 0.3rem;
+  margin-bottom: 2rem;
+
+  position: absolute;
+}
+
+.timerCard{
+  width:330px;
+  margin-top: 0.3rem;
+  height: fit-content;
+  text-align: left;
+  font-size: small;
+  margin-right: 0.3rem;
+  margin-left: 0.3rem;
+}
+.timerCardBody{
+  padding-bottom: 0.4rem !important;
+}
+
+h1 {
+  margin: 20px 0 0;
+}
+
+.linkData
+{
+  margin-right: 1rem !important;
+  text-decoration: none;
+  color:grey;
+}
+
+.linkData:hover
+{
+  margin-right: 1rem !important;
+  text-decoration: none;
+  color:whitesmoke;
+}
+
+.game-container {
+  padding: 20px 30px;
+  position: relative;
+  margin: auto;
+  height: 350px;
+  width: 450px;
+}
+
+.figure-container {
+  fill: transparent;
+  stroke: #34495e;
+  stroke-width: 4px;
+  stroke-linecap: round;
+}
+
+.figure-part {
+  display: none;
+}
+
+/* .wrong-letters-container {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+}
+
+.wrong-letters-container p {
+  margin: 0 0 5px;
+}
+
+.wrong-letters-container span {
+  font-size: 24px;
+} */
+
+.word {
+  display: flex;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+
+
+.letterSpace {
+ 
+  display: inline-flex;
+  font-size: 30px;
+  align-items: center;
+  justify-content: center;
+  margin: 0 3px;
+  height: 50px;
+  width: 20px;
+}
+
+.letter {
+  border-bottom: 3px solid #2980b9;
+  display: inline-flex;
+  font-size: 30px;
+  align-items: center;
+  justify-content: center;
+  margin: 0 3px;
+  height: 50px;
+  width: 20px;
+}
+
+.popup-container {
+  background-color: rgba(0, 0, 0, 0.3);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  /* display: flex; */
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.popup {
+  background: #2980b9;
+  border-radius: 5px;
+  box-shadow: 0 15px 10px 3px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+}
+
+.popup button {
+  cursor: pointer;
+  background-color: #fff;
+  color:#17a2b8;
+  border: 0;
+  margin-top: 20px;
+  padding: 12px 20px;
+  font-size: 16px;
+}
+
+.popup button:active {
+  transform: scale(0.98);
+}
+
+.popup button:focus {
+  outline: 0;
+}
+
+.notification-container {
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 10px 10px 0 0;
+  padding: 15px 20px;
+  position: absolute;
+  bottom: -70px;
+  transition: transform 0.3s ease-in-out;
+  font-size: x-small;
+  margin-left: 20px;
+}
+
+.notification-container p {
+  margin: 0;
+}
+
+.notification-container.show {
+  transform: translateY(-70px);
+}
