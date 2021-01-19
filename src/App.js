@@ -120,18 +120,18 @@ function App() {
     return () => window.removeEventListener('keydown', handleKeydown);
   }, [correctLetters, wrongLetters, playable, alphabetState,name,wordSel]);
 
-  const eventAlphabet = () => {
-    console.log("inv")
-      var newEvent=new KeyboardEvent('keydown', {
-      key: "a",
-      keyCode: 65,
-      bubbles: true,
-      charCode: 0,
-    });
-    console.log(newEvent)
-    document.dispatchEvent(newEvent);
+//   const eventAlphabet = () => {
+//     console.log("inv")
+//       var newEvent=new KeyboardEvent('keydown', {
+//       key: "a",
+//       keyCode: 65,
+//       bubbles: true,
+//       charCode: 0,
+//     });
+//     console.log(newEvent)
+//     document.dispatchEvent(newEvent);
   
-}
+// }
 
 
   function playAgain() {
@@ -173,7 +173,7 @@ function App() {
 
   return (
     <>
-      <ScoreContext.Provider value={{eventAlphabet:eventAlphabet,selectedWordDef:selectedWordDef,score:score,pscore:pscore,time:time,setNum:setNum,name:name,setName:setName,theme:theme,setTheme:setTheme}}>
+      <ScoreContext.Provider value={{selectedWordDef:selectedWordDef,score:score,pscore:pscore,time:time,setNum:setNum,name:name,setName:setName,theme:theme,setTheme:setTheme}}>
       
       <HashRouter basename="/">
       
