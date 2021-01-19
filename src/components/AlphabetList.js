@@ -25,6 +25,7 @@ function AlphabetList(props) {
         document.dispatchEvent(newEvent);
       
     }
+    
    
 
     const scoreContext = useContext(ScoreContext);

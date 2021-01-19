@@ -21,13 +21,13 @@ const Popup = ({correctLetters, wrongLetters, selectedWord, setPlayable, playAga
     finalMessageRevealWord = `You guessed the word : ${temp.word}`;
     playable = false;
     scoreContext.setNum(0);
-  } else if( scoreContext.time >= 44 ) {
+  } else if( scoreContext.time >= 3000 ) {
     finalMessage = "Time's up you lost ! ⏰";
     finalMessageRevealWord = `The word was : ${temp.word}`;
     playable = false;
     scoreContext.setNum(0);
   }
-  else if( checkWin(correctLetters, wrongLetters, selectedWord) === 'lose' || scoreContext.time >= 30 ) {
+  else if( checkWin(correctLetters, wrongLetters, selectedWord) === 'lose' ) {
     finalMessage = 'Unfortunately you lost. 😕';
     finalMessageRevealWord = `The word was : ${temp.word}`;
     playable = false;

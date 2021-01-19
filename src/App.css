@@ -12,11 +12,13 @@ body, #root {
   display: flex;
 }
 .alphabetList{
-  width:20% !important;
+  /* width:20% !important; */
+  margin-top: 5px;
   float:bottom !important;
-  position:absolute !important;
-  top: 2.8rem !important;
-  right: 3.3rem !important;
+  width:100% !important;
+  /* position:absolute !important; */
+  /* top: 2.8rem !important;
+  right: 3.3rem !important; */
 }
 .setScoreFont{
   font-size: x-large;
@@ -59,7 +61,7 @@ body, #root {
 
 
 .rulesCard{
-  width:1200px;
+  width:87%;
   margin-top: 0.2rem;
   margin-bottom: 2rem;
   text-align: left;
@@ -67,11 +69,16 @@ body, #root {
   
 }
 .gameCard{
-  width:700px;
+  width:100%;
   margin-top: 0.3rem;
   margin-bottom: 2rem;
+  margin-right: 0.3rem;
+  margin-left: 0.3rem;
+  /* position: absolute; */
+}
 
-  position: absolute;
+.row{
+  width: 100% !important;
 }
 
 .timerCard{

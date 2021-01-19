@@ -1,5 +1,5 @@
 import React from 'react';
-import {Card, Alert, Button} from 'react-bootstrap';
+import {Card, Alert, Button,Container} from 'react-bootstrap';
 import { useHistory } from "react-router-dom";
 function Rules() {
     let history = useHistory();
@@ -8,7 +8,9 @@ function Rules() {
         history.push("/play");
     }
     return (
-        <><center>
+        <>
+         <Container fluid>
+        <center>
         <Card className="rulesCard">
             <Card.Body>
             <Alert variant="info">
@@ -34,6 +36,7 @@ function Rules() {
             <br/><br/></Alert>
             </Card.Body>
         </Card></center>
+        </Container>
         </>
     )
 }
