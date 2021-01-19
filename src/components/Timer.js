@@ -8,7 +8,7 @@ function Timer({wrongLetters}) {
     let temp = scoreContext.selectedWordDef
     return (
         <>
-        {console.log(scoreContext)}
+        {/* {console.log(scoreContext)} */}
         <Card className="timerCard">
         <Card.Header><center><strong>Timer : {scoreContext.time} Seconds</strong></center></Card.Header>
         <Card.Body className="timerCardBody" >
@@ -26,7 +26,7 @@ function Timer({wrongLetters}) {
                 <Popover id='popover-positioned-bottom'>
                
                 <Popover.Content>
-                {  scoreContext.time<14 ?"Hint will appear after 15 seconds. ⏱️":(scoreContext.selectedWordDef &&  (scoreContext.selectedWordDef).description)}
+                {  scoreContext.time<=14 ?`Hint will appear in ${15-scoreContext.time} seconds. ⏱️`:(scoreContext.selectedWordDef &&  (scoreContext.selectedWordDef).description)}
                 </Popover.Content>
                 </Popover>
             }

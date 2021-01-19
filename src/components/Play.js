@@ -10,7 +10,7 @@ import StartPopup from './StartPopup';
 
 function Play({state,theme, correctLetters, wrongLetters, selectedWord, setPlayable, playAgain, showNotification}) {
     
-    console.log(theme)
+    // console.log(theme)
     return (
         <>
         <StartPopup></StartPopup>

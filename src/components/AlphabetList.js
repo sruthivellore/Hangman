@@ -1,4 +1,4 @@
-import React,{useContext} from 'react';
+import React,{useContext, useRef, useEffect} from 'react';
 import {Card, Alert} from 'react-bootstrap';
 import 'primereact/resources/primereact.min.css';
 import { Button } from 'primereact/button';
@@ -6,12 +6,33 @@ import ScoreCardCounter from './ScoreCardCounter';
 import {ScoreContext} from '../App';
 
 function AlphabetList(props) {
+
+
+    // This is simply an example that demonstrates
+    // how you can dispatch an event on the element.
+
+    const eventAlphabet = (label,index) => {
+        console.log(label)
+    
+        console.log(index+65)
+          var newEvent=new KeyboardEvent('keydown', {
+          key: label,
+          keyCode: 65+index,
+          bubbles: true,
+          charCode: 0,
+        });
+        console.log(newEvent)
+        document.dispatchEvent(newEvent);
+      
+    }
+   
+
     const scoreContext = useContext(ScoreContext);
     var state = props.state;
     function generateButton(value,index){
         var label = String.fromCharCode(65+index);
         var classValue = value ?"alphButEnable":"alphButDisable"
-        return (<><Button label={label} className={classValue} /></>)
+        return (<><Button label={label}  onClick={()=>eventAlphabet(label,index)} className={classValue} /></>)
     }
     const buttonList=state.map((value,index)=>{return(generateButton(value,index))})
     return (

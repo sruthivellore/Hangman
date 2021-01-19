@@ -37,17 +37,17 @@ function App() {
   const [nstart, setNstart]=useState(false);
   const [num, setNum]=useState(1);
 
-  useEffect(()=>{
+    useEffect(()=>{
     if(theme === "Social Media"){
       words = myData.social
-      console.log(words)
+      // console.log(words)
       selectedWordDef = words[Math.floor(Math.random() * words.length)];
       selectedWord = selectedWordDef.word;
       selectedWord = selectedWord.toLowerCase();
       setWordSel(true)
     }else if(theme === "Famous Personalities"){
       words = myData.celeb
-      console.log(words)
+      // console.log(words)
       selectedWordDef = words[Math.floor(Math.random() * words.length)];
       selectedWord = selectedWordDef.word;
       selectedWord = selectedWord.toLowerCase();
@@ -64,10 +64,10 @@ function App() {
     if(nstart){
       
       const timer = time < 10000 && resetTimer && setInterval(() => setTime(time+num), 1000);
-      console.log(timer);
-      console.log(num);
+      // console.log(timer);
+      // console.log(num);
       return() => {
-        console.log("Calling return..");
+        // console.log("Calling return..");
         clearInterval(timer)
         setResetTimer(true)
       };
@@ -92,8 +92,9 @@ function App() {
       return
     setNstart(true);
     const handleKeydown = event => {
-      
+      console.log(event)
       const { key, keyCode } = event;
+      console.log(key,keyCode)
       if (playable && keyCode >= 65 && keyCode <= 90) {
         updateAlphabet(keyCode);
         const letter = key.toLowerCase();
@@ -118,6 +119,20 @@ function App() {
 
     return () => window.removeEventListener('keydown', handleKeydown);
   }, [correctLetters, wrongLetters, playable, alphabetState,name,wordSel]);
+
+  const eventAlphabet = () => {
+    console.log("inv")
+      var newEvent=new KeyboardEvent('keydown', {
+      key: "a",
+      keyCode: 65,
+      bubbles: true,
+      charCode: 0,
+    });
+    console.log(newEvent)
+    document.dispatchEvent(newEvent);
+  
+}
+
 
   function playAgain() {
     
@@ -158,7 +173,7 @@ function App() {
 
   return (
     <>
-      <ScoreContext.Provider value={{selectedWordDef:selectedWordDef,score:score,pscore:pscore,time:time,setNum:setNum,name:name,setName:setName,theme:theme,setTheme:setTheme}}>
+      <ScoreContext.Provider value={{eventAlphabet:eventAlphabet,selectedWordDef:selectedWordDef,score:score,pscore:pscore,time:time,setNum:setNum,name:name,setName:setName,theme:theme,setTheme:setTheme}}>
       
       <HashRouter basename="/">
       
