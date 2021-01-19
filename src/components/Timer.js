@@ -13,9 +13,10 @@ function Timer({wrongLetters}) {
         <Card.Header><center><strong>Timer : {scoreContext.time} Seconds</strong></center></Card.Header>
         <Card.Body className="timerCardBody" >
         <Alert variant="dark">
-            <h5>Welcome, {scoreContext.name}</h5>
+            <h5>Welcome 🙏🏻, {scoreContext.name}</h5>
             <hr />
-            <p>All the Best....!</p>
+            <p><strong>Theme : </strong></p><p>{scoreContext.name?scoreContext.theme:""}</p>
+            {/* <p>All the Best 👍🏻</p> */}
             <center>
             <OverlayTrigger
             trigger="hover"
@@ -25,12 +26,13 @@ function Timer({wrongLetters}) {
                 <Popover id='popover-positioned-bottom'>
                
                 <Popover.Content>
-                    {  (scoreContext.selectedWordDef &&  (scoreContext.selectedWordDef).description)}
+                {  scoreContext.time<14 ?"Hint will appear after 15 seconds. ⏱️":(scoreContext.selectedWordDef &&  (scoreContext.selectedWordDef).description)}
                 </Popover.Content>
                 </Popover>
             }
             >
-            <Button variant="outline-info" > Hint <i className="pi pi-question-circle"></i> </Button>
+                <Button variant="outline-info" > Hint <i className="pi pi-question-circle"></i> </Button>
+            {/* <Button disabled={scoreContext.time<19} variant="outline-info" > Hint <i className="pi pi-question-circle"></i> </Button> */}
             </OverlayTrigger>
             
             </center><br/></Alert>

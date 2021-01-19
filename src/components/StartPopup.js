@@ -7,7 +7,7 @@ function StartPopup() {
     const scoreContext = useContext(ScoreContext);
     const [show, setShow] = useState(scoreContext.name==null);
     const [uname, setUname] = useState(null);
-    const [utheme, setUtheme] = useState("technology");
+    const [utheme, setUtheme] = useState("Technology");
     let history = useHistory();
 
     function handleRules() {
@@ -45,9 +45,10 @@ function StartPopup() {
                 <Form.Group controlId="Theme">
                 <Form.Label>Theme</Form.Label>
                 <Form.Control as="select" defaultValue="Choose a Theme" size="sm" onChange={e=>setUtheme(e.target.value)}>
-                    <option value="technology">Choose a Theme</option>
-                    <option value="technology">Technology/Programming languages</option>
-                    <option value="social">Social Media</option>
+                    <option value="Technology">Choose a Theme</option>
+                    <option value="Technology">Technology/Programming languages</option>
+                    <option value="Social Media">Social Media</option>
+                    <option value="Famous Personalities">Famous Personalities</option>
                 </Form.Control>
                 </Form.Group>
                 </Form>

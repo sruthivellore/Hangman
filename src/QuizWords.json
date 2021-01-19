@@ -1,5 +1,5 @@
 {
-    "technology":[
+    "Technology":[
             {
                 "word":"Artificial Intelligence",
                 "description":"Refers to the simulation of human intelligence in machines that are programmed to think like humans and mimic their actions."
@@ -187,6 +187,120 @@
         },{
             "word":"Discord",
             "description":"The preferred instant messaging platform for gamers. A lot of gamers use it to create team channels and discuss game strategy. You can use it directly from your browser or download the app."
+        }
+    ],
+    "celeb":[
+        {
+            "word":"Mahatma Gandhi",
+            "description":"Father of the Nation."
+        },{
+            "word":"Jawaharlal Nehru",
+            "description":"Indian independence activist and, subsequently, the first Prime Minister of India."
+        },{
+            "word":"Mother Teresa",
+            "description":"Founder of the Order of the Missionaries of Charity, a Roman Catholic congregation of women dedicated to helping the poor."
+        },{
+            "word":"Sachin Tendulkar",
+            "description":"Former international cricketer who served as captain of the Indian national team. He is widely regarded as one of the greatest batsmen in the history of cricket."
+        },{
+            "word":"Barack Obama",
+            "description":"US President 2008 – 2016"
+        },{
+            "word":"Tom Cruise",
+            "description":"American actor and producer. He is one of the highest-paid actors in the world.(Mission: Impossible)"
+        },{
+            "word":"Amitabh Bachchan",
+            "description":"This Bollywood star was known as the 'angry young man.' Can you name him?"
+        },{
+            "word":"Madhubala",
+            "description":"This Bollywood diva performed the iconic song 'Pyar To Kiya Darna Kya' Who is she?"
+        },{
+            "word":"Aamir Khan",
+            "description":"Who is the star of the Oscar-nominated 'Lagaan'?"
+        },{
+            "word":"Deepika Padukone",
+            "description":"This actress made her Bollywood debut in 'Om Shanti Om.'"
+        },{
+            "word":"Hrithik Roshan",
+            "description":"This heartthrob made our hearts go 'Dhoom!'"
+        },{
+            "word":"Priyanka Chopra",
+            "description":"Who is this Quantico star who had her start in Bollywood?"
+        },{
+            "word":"Shah Rukh Khan",
+            "description":"He was the one with heart in 'Dilwale Dulhania Le Jayenge.'"
+        },{
+            "word":"Ranbir Kapoor",
+            "description":"“Main udna chahta hoon, daudna chahta hoon, girna bhi chahta hoon. Bas rukna nahi chahta.” – Yeh Jawaani Hai Deewani"
+        },{
+            "word":"Madhuri Dixit",
+            "description":"Hum Aapke Hain Kaun ?"
+        },{
+            "word":"Kajol Devgn",
+            "description":"Actress who made her comeback in 'Dilwale'"
+        },{
+            "word":"Aishwarya Rai",
+            "description":"Former Miss World knew how to move to the beat in 'Taal.'"
+        },{
+            "word":"Ranveer Singh",
+            "description":"This hero of 'Simmba' is a king of period films."
+        },{
+            "word":"Salman Khan",
+            "description":"He has been the 'Sultan' of Bollywood for decades. "
+        },{
+            "word":"Katrina Kaif",
+            "description":"This stunner drove us all crazy with 'Sheila Ki Jawani'"
+        },{
+            "word":"Hema Malini",
+            "description":"Who is this 'Dream Girl'?"
+        },{
+            "word":"Arijit Singh",
+            "description":"Gained overnight popularity by singing ‘Tum Hi Ho’ from Aashiqui 2."
+        },{
+            "word":"Badshah",
+            "description":"Topped the chart with his song 'Genda Phool' featuring Jacqueline Fernandez."
+        },{
+            "word":"Neha Kakkar",
+            "description":"She gave her voice for Street Dancer 3's song 'Garmi' and 'Lamborgini' from Jai Mummy Di. "
+        },{
+            "word":"Honey Singh",
+            "description":"His singles include LOCA, Moscow Mashuka, First Kiss, Billo Tu Agg Ae and Saiyaan."
+        },{
+            "word":"Shreya Ghosal",
+            "description":"She lent her voice to around 8 movies. The movies are Bhangra Paa Le, Tanhaji, Happy Hardy and Heer, Shikara, Babloo Bachelor, Dil Bechara, Shakuntala Devi and Sadak 2. "
+        },{
+            "word":"Manushi Chhillar",
+            "description":"An Indian actress, model and the winner of Miss World 2017."
+        },{
+            "word":"Varun Dhawan",
+            "description":"Known for his mass appeal is one of the most bankable young stars of Bollywood."
+        },{
+            "word":"Tiger Shroff",
+            "description":"He made his film debut with the 2014 action film Heropanti."
+        },{
+            "word":"Mark Zuckerberg",
+            "description":"An American media magnate, internet entrepreneur, and philanthropist. He is known for co-founding Facebook, Inc. "
+        },{
+            "word":"Bill Gates",
+            "description":"An American business magnate, software developer, and philanthropist. He is best known as the co-founder of Microsoft Corporation."
+        },{
+            "word":"Elon Musk",
+            "description":"A business magnate, industrial designer and engineer. He is the founder, CEO, CTO and chief designer of SpaceX; early investor, CEO and product architect of Tesla, Inc."
+        },{
+            "word":"Steve Jobs",
+            "description":"An American inventor, designer and entrepreneur who was the co-founder, chief executive and chairman of Apple."
+        },{
+            "word":"Tim Cook",
+            "description":"An American business executive, philanthropist and engineer. Cook is the chief executive officer of Apple Inc."
+        },{
+            "word":"Sundar Pichai",
+            "description":"An Indian-American business executive. He is the chief executive officer of Alphabet Inc. and its subsidiary Google."
+        },{
+            "word":"Satya Nadella",
+            "description":"An Indian-American business executive. He is the chief executive officer of Microsoft."
+        },{
+            "word":"Stephen Hawking",
+            "description":"A scientist known for his work with black holes and relativity, and the author of popular science books like 'A Brief History of Time.'"
         }
     ]
 }

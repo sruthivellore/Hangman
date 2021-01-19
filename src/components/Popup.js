@@ -21,7 +21,13 @@ const Popup = ({correctLetters, wrongLetters, selectedWord, setPlayable, playAga
     finalMessageRevealWord = `You guessed the word : ${temp.word}`;
     playable = false;
     scoreContext.setNum(0);
-  } else if( checkWin(correctLetters, wrongLetters, selectedWord) === 'lose' ) {
+  } else if( scoreContext.time >= 44 ) {
+    finalMessage = "Time's up you lost ! ⏰";
+    finalMessageRevealWord = `The word was : ${temp.word}`;
+    playable = false;
+    scoreContext.setNum(0);
+  }
+  else if( checkWin(correctLetters, wrongLetters, selectedWord) === 'lose' || scoreContext.time >= 30 ) {
     finalMessage = 'Unfortunately you lost. 😕';
     finalMessageRevealWord = `The word was : ${temp.word}`;
     playable = false;
@@ -44,6 +50,8 @@ const Popup = ({correctLetters, wrongLetters, selectedWord, setPlayable, playAga
     show={finalMessage !== ''}
     backdrop="static"
     keyboard={false}
+    aria-labelledby="contained-modal-title-vcenter"
+      centered
   >
     <Modal.Header>
        

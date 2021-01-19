@@ -18,7 +18,7 @@ import myData from './QuizWords.json';
 
 export const ScoreContext = React.createContext();
 
-let words= myData.technology;
+let words= myData.Technology;
 let selectedWordDef = words[Math.floor(Math.random() * words.length)];
 let selectedWord = selectedWordDef.word
 selectedWord = selectedWord.toLowerCase()
@@ -29,7 +29,7 @@ function App() {
   const [wrongLetters, setWrongLetters] = useState([]);
   const [showNotification, setShowNotification] = useState(false);
   const [name, setName] = useState(null);
-  const [theme, setTheme] = useState("technology");
+  const [theme, setTheme] = useState("Technology");
   const [wordSel,setWordSel]=useState(false);
   const [resetTimer,setResetTimer]=useState(true);
   const [time,setTime] = useState(0);
@@ -38,8 +38,15 @@ function App() {
   const [num, setNum]=useState(1);
 
   useEffect(()=>{
-    if(theme === "social"){
+    if(theme === "Social Media"){
       words = myData.social
+      console.log(words)
+      selectedWordDef = words[Math.floor(Math.random() * words.length)];
+      selectedWord = selectedWordDef.word;
+      selectedWord = selectedWord.toLowerCase();
+      setWordSel(true)
+    }else if(theme === "Famous Personalities"){
+      words = myData.celeb
       console.log(words)
       selectedWordDef = words[Math.floor(Math.random() * words.length)];
       selectedWord = selectedWordDef.word;
@@ -83,8 +90,9 @@ function App() {
   useEffect(() => {
     if(name == null)
       return
+    setNstart(true);
     const handleKeydown = event => {
-      setNstart(true);
+      
       const { key, keyCode } = event;
       if (playable && keyCode >= 65 && keyCode <= 90) {
         updateAlphabet(keyCode);
