@@ -21,7 +21,7 @@ const Popup = ({correctLetters, wrongLetters, selectedWord, setPlayable, playAga
     finalMessageRevealWord = `You guessed the word : ${temp.word}`;
     playable = false;
     scoreContext.setNum(0);
-  } else if( scoreContext.time >= 3000 ) {
+  } else if( scoreContext.time >= 30 ) {
     finalMessage = "Time's up you lost ! ⏰";
     finalMessageRevealWord = `The word was : ${temp.word}`;
     playable = false;
