@@ -9,13 +9,19 @@ body, #root {
   min-height: 700px;
 }
 .setAllCards{
-  display: flex;
+  /* display: flex; */
+}
+.containerRow{
+   margin-left: 0.0rem !important;
 }
 .alphabetList{
   /* width:20% !important; */
-  margin-top: 5px;
+  margin-top: 6px;
   float:bottom !important;
   width:100% !important;
+  
+  /* margin-right: 0.3rem !important;
+  margin-left: 0.3rem !important; */
   /* position:absolute !important; */
   /* top: 2.8rem !important;
   right: 3.3rem !important; */
@@ -47,15 +53,15 @@ body, #root {
   padding-bottom: 0px !important;
 }
 .alphaCard{
-  padding-top: 0.4px !important;
+  padding-top: 0.5px !important;
   padding-bottom: 0px !important;
   text-align: center;
 }
 .alphaCard1{
-  padding-top: 1rem !important;
+  padding-top: 0.3rem !important;
   padding-bottom: 0px !important;
-  padding-left: 1rem !important;
-  padding-right: 1rem !important;
+  padding-left: 0.3rem !important;
+  padding-right: 0.3rem !important;
   text-align: center;
 }
 
@@ -70,10 +76,11 @@ body, #root {
 }
 .gameCard{
   width:100%;
+  min-width: 520px !important;
   margin-top: 0.3rem;
   margin-bottom: 2rem;
-  margin-right: 0.3rem;
-  margin-left: 0.3rem;
+  /* margin-right: 0.3rem;
+  margin-left: 0.3rem; */
   /* position: absolute; */
 }
 
@@ -82,16 +89,18 @@ body, #root {
 }
 
 .timerCard{
-  width:330px;
+  width:100%;
   margin-top: 0.3rem;
   height: fit-content;
   text-align: left;
   font-size: small;
-  margin-right: 0.3rem;
-  margin-left: 0.3rem;
+  
+  /* margin-right: 0.3rem;
+  margin-left: 0.3rem; */
 }
 .timerCardBody{
-  padding-bottom: 0.4rem !important;
+  padding: 0.4rem !important;
+  padding-bottom: 0.3rem !important;
 }
 
 h1 {

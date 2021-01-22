@@ -12,7 +12,7 @@ function Rules() {
          <Container fluid>
         <center>
         <Card className="rulesCard">
-            <Card.Body>
+            <Card.Body>                
             <Alert variant="info">
             <Alert.Heading>Playing Hangman</Alert.Heading>
             <hr />

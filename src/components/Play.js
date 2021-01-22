@@ -17,13 +17,13 @@ function Play({state,theme, correctLetters, wrongLetters, selectedWord, setPlaya
         <StartPopup></StartPopup>
     
         <div className="setAllCards">
-           <Row fluid> 
-                <Col xs={12} sm={3}>
+           <Row fluid className="containerRow"> 
+                <Col xs={12} lg={3} xl={3}>
                     <Timer wrongLetters={wrongLetters}/>
                     <Notification showNotification={showNotification} />
                     
                 </Col>
-                <Col xs={12} sm={6}>
+                <Col xs={12} lg={9} xl={6}>
 
                     <center>
                         <Card className="gameCard">
@@ -43,7 +43,7 @@ function Play({state,theme, correctLetters, wrongLetters, selectedWord, setPlaya
                         </Card>
                     </center>
                 </Col>
-                <Col xs={12} sm={3}>
+                <Col xs={12} lg={12} xl={3}>
 
                     <AlphabetList state={state}></AlphabetList>
                 </Col>

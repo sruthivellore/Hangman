@@ -43,7 +43,7 @@ function AlphabetList(props) {
                     bg = "light"
                     key="1"
                     text="dark"
-                    style={{width:'15.5rem'}}
+                    // style={{width:'15.5rem'}}
                     >
                         <Card.Header className="alphaCard"><ScoreCardCounter></ScoreCardCounter></Card.Header>
                         <Card.Body className="alphaCard1">
