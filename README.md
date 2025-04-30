@@ -139,6 +139,3 @@ Developed by [sruthivellore](https://github.com/sruthivellore)
 **Enjoy playing Hangman!**  
 If you like this project, please ⭐ the repo and share your feedback.
 
----
-
-*Tip: Add screenshots or a GIF for extra flair! If you want to highlight specific components or add FAQs, let me know!*
